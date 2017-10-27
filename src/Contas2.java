@@ -1,62 +1,52 @@
 
 public class Contas2 {
 
-    private String contaPagar;
-    private String contaReceber;
-    private String dataPagar;
-    private String dataReceber;
+    private String descrição;
+    private String vencimento;
+    private String valor;
+  
 
     public Contas2() {
 
-        this.contaPagar = "";
-        this.contaReceber = "";
-        this.dataPagar = "";
-        this.dataReceber = "";
+        this.descrição = "";
+        this.valor = "";
+        this.vencimento= "";
+       
     }
     
     public Contas2(String contaPagar, String contaReceber, String dataPagar, String dataReceber) {
         
-        this.contaReceber=contaReceber;
-        this.contaPagar=contaPagar;
-        this.dataPagar=dataPagar;
-        this.dataReceber=dataReceber;
+        this.descrição=descrição;
+        this.valor=valor;
+        this.vencimento=vencimento;
+       
         
     }
     
-    public String getcontaPagar() {
-        return contaPagar;
+    public String getdescrição() {
+        return descrição;
     }
 
-    public void setcontaPagar(String contaPagar) {
-        this.contaPagar=contaPagar;
+    public void setdescrição(String descrição) {
+        this.descrição=descrição;
     }
     
     
-     public String getcontaReceber() {
-        return contaReceber;
+     public String getvalor() {
+        return valor;
     }
 
-    public void setcontaReceber(String contaReceber) {
-        this.contaReceber=contaReceber;
-    }
-    
-     public String getdataReceber() {
-        return dataReceber;
-    }
-
-    public void setdataReceber(String dataReceber) {
-        this.dataReceber=dataReceber;
+    public void setvalor(String valor) {
+        this.valor=valor;
     }
     
+     public String getvencimento() {
+        return vencimento;
+    }
+
+    public void setvencimento(String vencimento) {
+        this.vencimento=vencimento;
+    }
     
-     public String getdataPagar() {
-        return dataPagar;
-    }
-
-    public void setdataPagar(String dataPagar) {
-        this.dataPagar=dataPagar;
-    }
-
-
-
+    
 }
